@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RK Console</title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css">
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main-container">
+    <p>Use CTRL+Z/CTRL+z : Undo, CTRL+Y/CTRL+y: Redo</p>
+    <form name="consoleForm" onsubmit="return rkConsole.runConsole()">
+        <div autocapitalize="off" spellcheck="false" autocomplete="off" class="console-box">
+            <span id="consoleVal" name="console" autocapitalize="off" spellcheck="false" autocomplete="off" contenteditable="true"></span>
+            <span class="suggested"></span>
+        </div>
+    </form>
+    <ul id="output"></ul>
+</div>
+
+
+<script type="application/javascript" src="js/vendor/jquery-1.11.3.min.js"></script>
+<script type="application/javascript" src="js/util.js"></script>
+<script type="application/javascript" src="js/ctrl.js"></script>
+<script type="application/javascript" src="js/history.js"></script>
+<script type="application/javascript" src="js/rkConsole.js"></script>
+</body>
+</html>

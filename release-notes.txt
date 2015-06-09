@@ -1,0 +1,8 @@
+App Name: RKConsole
+Version: 0.1
+
+Features:
+1) Javascript Evaluation
+2) Commands History
+3) Auto Suggest
+

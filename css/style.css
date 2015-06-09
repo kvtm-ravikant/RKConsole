@@ -1,0 +1,24 @@
+
+.main-container{
+    padding:10px ;
+}
+.console-box{
+    height: 50px;background-color: #efefef;
+    font-size: 1.3em;
+    border: 1px solid #cccccc;
+
+}
+
+.suggested{
+    color: #aaa;
+    margin-left: -6px;
+}
+
+.error{
+    color: red;
+}
+
+li{
+    padding: 5px;
+}
+
